@@ -1,4 +1,5 @@
 import React from 'react';
+import Chart from '../Chart/Chart';
 
 function HomePage() {
   return (
@@ -62,12 +63,10 @@ function HomePage() {
                     because they know it is all good and accounted for.
                 </p>
             </div>
-    
+
             <div className="text-box">
-                <h1>Free</h1>
-                <p>
-                    <canvas id="myChart" width="400" height="400"></canvas>
-                </p>
+                <h1>Chart</h1>
+                <Chart/>
             </div>
 
         </div>
